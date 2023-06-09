@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Button from './components/compon/button/Button';
+import HomeScreen from './components/screen/account/HomeScreen';
+import LoginScreen from './components/screen/loginScreen/LoginScreen';
+import SignupScreen from './components/screen/signupScreen/SignupScreen';
+import WelcomeScreen from './components/screen/welcomesScreen/WelcomeScreen';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HomeScreen/>
+     
+      
     </div>
   );
 }
